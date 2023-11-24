@@ -18,3 +18,11 @@ h2{
     border-radius: 10px;
     background:linear-gradient(to bottom,#e6cfa4, #dbbe89);
 }
+.container {
+    display: flex; /* Задаємо гнучкий (flex) контейнер */
+    flex-direction:row;
+    margin-bottom: 20px; /* Додаємо нижній відступ між блоками */
+}
+.container p{
+    text-align:end;
+}
